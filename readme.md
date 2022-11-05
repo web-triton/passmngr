@@ -33,7 +33,9 @@ python passmngr.py
 
 # Таблица (pwds)
 
-**id** - Уникальный идентификатор (INTEGER) </br>
-**link** - домен сайта (VARCHAR 255) </br>
-**login** - логин или email (VARCHAR 255) </br>
-**password** - пароль (VARCHAR 255)
+| ПОЛЕ | ТИП | ОПИСАНИЕ |
+|:----------------:|:---------:|:----------------:|
+| **id** | INTEGER | Уникальный идентификатор |
+| **link** | VARCHAR 255 | Домен сайта |
+| **login** | VARCHAR 255 | Логин или email |
+| **password** | VARCHAR 255 | Пароль |
